@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "loading.py"
+version = "0.1.0"
+description = "Python_Module08 ex1"
+authors = ["Levon <16levonxalatyan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+numpy = "^1.25.0"
+matplotlib = "^3.7.2"
