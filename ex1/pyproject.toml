@@ -6,6 +6,6 @@ authors = ["Levon <16levonxalatyan@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pandas = "^2.1.0"
-numpy = "^1.25.0"
-matplotlib = "^3.7.2"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"

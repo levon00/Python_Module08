@@ -55,19 +55,6 @@ def matrix_analysis():
         columns=["A", "B", "C"]
     )
 
-    mean_values = df.mean()
-    max_values = df.max()
-    min_values = df.min()
-
-    print("\nMean values:")
-    print(mean_values)
-
-    print("\nMaximum values:")
-    print(max_values)
-
-    print("\nMinimum values:")
-    print(min_values)
-
     print("\nGenerating visualization...")
 
     plt.plot(df["A"], label="A")
